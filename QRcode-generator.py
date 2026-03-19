@@ -1,5 +1,5 @@
-import qrcode
-
+import qrcode #pip install qrcode
+#generate QR codes from text, links or any data
 data = input("Enter URL: ")
 
 qr = qrcode.QRCode(border=2)
