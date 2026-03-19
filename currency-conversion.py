@@ -1,4 +1,5 @@
-import requests
+import requests #pip install requests
+#requests library is used to make http requests to get data from APIs
 
 def convert_currency():
     # We use a public API to get live rates
@@ -27,3 +28,4 @@ def convert_currency():
         print(f"Error fetching data: {e}")
 
 convert_currency()
+#currently this code converts usd to other currency. will modify it to convert from any currency in future
