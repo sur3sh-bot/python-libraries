@@ -2,7 +2,8 @@ from rich.console import Console
 from rich.table import Table
 from rich.progress import track
 import time
-
+#pip install rich
+#rich library is used to create colored and formatted output in the terminal
 console = Console()
 
 
