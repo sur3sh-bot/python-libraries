@@ -1,5 +1,5 @@
-from PIL import Image
-
+from PIL import Image #pip install pillow
+#Pillow is a Python library used for working with images
 
 ASCII_CHARS = "@%#*+=-:. "
 
@@ -37,7 +37,7 @@ image = grayscale(image)
 
 ascii_data = pixels_to_ascii(image)
 
-# format into proper width
+
 width = image.width
 ascii_img = "\n".join(
     [ascii_data[i:i+width] for i in range(0, len(ascii_data), width)]
@@ -46,8 +46,8 @@ ascii_img = "\n".join(
 print(ascii_img)
 
 
-
+#optional if we want to save the art 
 with open("ascii_art.txt", "w") as f:
     f.write(ascii_img)
 
-print("\n✅ ASCII art saved as ascii_art.txt")
+print("\n ASCII art saved as ascii_art.txt")
