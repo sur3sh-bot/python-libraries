@@ -10,10 +10,10 @@ folium.Marker(
     popup="<b>school where suresh studied</b><br>best school in the world ",
     tooltip="Click for a tip!",
     icon=folium.Icon(color='red', icon='info-sign')
-).add_to(my_map)
+).add_to(my_map) #adding a marker with a popup 
 
 
-folium.Circle(
+folium.Circle( #here we are adding a circle around the school 
     radius=200, # in meters
     location=[12.909561807850984, 77.55010552419766],
     color='crimson',
