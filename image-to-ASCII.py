@@ -24,7 +24,7 @@ def pixels_to_ascii(image):
     return ascii_str
 
 
-path = input("Enter image path: ")
+path = input("Enter image path: ") #file should be in the same directory as this file
 
 try:
     image = Image.open(path)
