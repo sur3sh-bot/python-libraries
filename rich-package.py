@@ -22,10 +22,8 @@ console.print(table)
 
 def simulate_launch():
     console.print("\n[bold yellow]Initiating Launch Sequence...[/bold yellow]")
-    # The 'track' function automatically adds a progress bar to any loop
     for step in track(range(100), description="Calculating Trajectory:"):
         time.sleep(0.05) 
-    
     console.print("[bold green]✔ Lift off! We have clear skies.[/bold green] 🌌")
 
 simulate_launch()
