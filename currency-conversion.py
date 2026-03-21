@@ -17,7 +17,6 @@ def convert_currency():
         target_curr = input("Enter target currency (e.g., EUR, GBP, INR): ").upper()
 
         if target_curr in rates:
-           
             converted_amount = amount * rates[target_curr]
             print(f"\n{amount} USD is equal to {converted_amount:.2f} {target_curr}")
             print(f"Current Rate: 1 USD = {rates[target_curr]} {target_curr}") #to show the rate of 1 usd in target currency
