@@ -2,14 +2,14 @@ import requests #pip install requests
 #requests library is used to make http requests to get data from APIs
 
 def convert_currency():
-    # We use a public API to get live rates
-    url = "https://api.exchangerate-api.com/v4/latest/USD"
+    
+    url = "https://api.exchangerate-api.com/v4/latest/USD" #this api provides exchange rates 
     
     try:
         response = requests.get(url)
         data = response.json()
         
-        # Extracting the conversion rates dictionary
+        
         rates = data['rates']
         
         print("--- Real-Time Currency Converter ---")
@@ -17,10 +17,10 @@ def convert_currency():
         target_curr = input("Enter target currency (e.g., EUR, GBP, INR): ").upper()
 
         if target_curr in rates:
-            # The calculation: v = a * r
+           
             converted_amount = amount * rates[target_curr]
             print(f"\n{amount} USD is equal to {converted_amount:.2f} {target_curr}")
-            print(f"Current Rate: 1 USD = {rates[target_curr]} {target_curr}")
+            print(f"Current Rate: 1 USD = {rates[target_curr]} {target_curr}") #to show the rate of 1 usd in target currency
         else:
             print("Currency not found!")
             
