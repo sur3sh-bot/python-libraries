@@ -6,9 +6,7 @@ import time
 #rich library is used to create colored and formatted output in the terminal
 console = Console()
 
-
 table = Table(title="Space Mission Logistics")
-
 table.add_column("Resource", style="cyan", no_wrap=True)
 table.add_column("Status", style="magenta")
 table.add_column("Quantity", justify="right", style="green")
