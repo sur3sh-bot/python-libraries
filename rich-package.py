@@ -7,7 +7,7 @@ import time
 console = Console()
 
 
-table = Table(title="🚀 Space Mission Logistics")
+table = Table(title="Space Mission Logistics")
 
 table.add_column("Resource", style="cyan", no_wrap=True)
 table.add_column("Status", style="magenta")
@@ -24,6 +24,6 @@ def simulate_launch():
     console.print("\n[bold yellow]Initiating Launch Sequence...[/bold yellow]")
     for step in track(range(100), description="Calculating Trajectory:"):
         time.sleep(0.05) 
-    console.print("[bold green]✔ Lift off! We have clear skies.[/bold green] 🌌")
+    console.print("[bold green]✔ Lift off! We have clear skies.[/bold green] ")
 
 simulate_launch()
