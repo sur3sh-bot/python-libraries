@@ -19,7 +19,6 @@ table.add_row("Robot Morale", "Slightly Grumpy", "88%")
 
 console.print(table)
 
-
 def simulate_launch():
     console.print("\n[bold yellow]Initiating Launch Sequence...[/bold yellow]")
     for step in track(range(100), description="Calculating Trajectory:"):
