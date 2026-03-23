@@ -1,4 +1,4 @@
-import requests #requests library is used to make http requests to get data from APIs
+import requests
 
 def check_url(url):
     try:
