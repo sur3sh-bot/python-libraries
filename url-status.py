@@ -6,7 +6,8 @@ def check_url(url):
         return response.status_code
     except:
         return "Error"
-    urls = input("Enter URLs (comma separated): ").split(",")
+
+urls = input("Enter URLs (comma separated): ").split(",")
 
 print("\nResults:\n")
 
