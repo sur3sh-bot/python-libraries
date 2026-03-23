@@ -6,3 +6,11 @@ def check_url(url):
         return response.status_code
     except:
         return "Error"
+    urls = input("Enter URLs (comma separated): ").split(",")
+
+print("\nResults:\n")
+
+for url in urls:
+    url = url.strip()
+    status = check_url(url)
+    print(f"{url} → {status}")
