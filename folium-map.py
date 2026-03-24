@@ -7,7 +7,7 @@ my_map = folium.Map(location=[12.909561807850984, 77.55010552419766], zoom_start
 
 folium.Marker(
     [12.909561807850984, 77.55010552419766], 
-    popup="<b>school where suresh studied</b><br>best school in the world ",
+    popup="<b>school where suresh studied</b><br>best school in the world ", #this is the text that will appear when you click on the marker
     tooltip="Click for a tip!",
     icon=folium.Icon(color='red', icon='info-sign')
 ).add_to(my_map) #adding a marker with a popup 
