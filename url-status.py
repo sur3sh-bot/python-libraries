@@ -1,5 +1,5 @@
 import requests #pip install requests
-
+#this library is used to make HTTP requests in Python. It allows you to send HTTP requests and handle responses easily.
 def check_url(url):
     try:
         response = requests.get(url, timeout=5)
