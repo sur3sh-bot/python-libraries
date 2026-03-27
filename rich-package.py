@@ -23,4 +23,4 @@ def simulate_launch():
         time.sleep(0.05) 
     console.print("[bold green] Lift off! We have clear skies.[/bold green] ")
 
-simulate_launch()
+simulate_launch() 
