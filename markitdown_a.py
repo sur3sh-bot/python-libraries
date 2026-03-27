@@ -28,6 +28,5 @@ def convert_to_ai_friendly_format(file_path):
     except Exception as e:
         print(f"Error converting file: {e}")
 
-
 # This line triggers the function with your specific PowerPoint file
 convert_to_ai_friendly_format("data-for-markitdown.pptx")
