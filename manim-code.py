@@ -10,4 +10,5 @@ class TransformExample(Scene):
         self.play(Create(blue_circle))
         self.wait(1)
         self.play(Transform(blue_circle, square))
-        self.wait(1)
+        self.wait(1) 
+        #may not work in your ide
