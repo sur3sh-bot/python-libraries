@@ -1,5 +1,5 @@
 from manim import *
-
+#pip install manim
 class TransformExample(Scene):
     def construct(self):
         circle = Circle()
