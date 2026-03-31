@@ -1,4 +1,4 @@
-from textual.app import App
+from textual.app import App #pip install textual    
 from textual.widgets import Button
 
 class MyApp(App):
