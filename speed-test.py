@@ -1,5 +1,5 @@
 import speedtest #pip install speedtest-cli
-#this library lets us measure internet speed directly from code
+#this library lets us measure internet speed directly from code, it provides methods to test download and upload speeds as well as ping to the server.
 print("\n Running internet speed test...\n")
 try:
     st = speedtest.Speedtest()
