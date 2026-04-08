@@ -11,7 +11,7 @@ folium.Marker(
 
     tooltip="Click for a tip!",
     icon=folium.Icon(color='red', icon='info-sign')
-).add_to(my_map) #adding a marker with a popup 
+).add_to(my_map) #adding a marker with a popup and tooltip to the map, we also customize the marker icon with a red color and an info-sign icon from font-awesome
 
 
 folium.Circle( #here we are adding a circle around the school 
