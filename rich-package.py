@@ -3,7 +3,7 @@ from rich.table import Table
 from rich.progress import track
 import time
 #pip install rich
-#rich library is used to create colored and formatted output in the terminal, it also provides features like tables and progress bars to make the output more visually appealing and easier to read.
+#rich library is used to create colored and formatted output in the terminal, it also provides features like tables and progress bars to make the output more visually appealing and easier to read
 console = Console()
 
 table = Table(title="Space Mission Logistics")
